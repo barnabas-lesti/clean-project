@@ -1,0 +1,26 @@
+{
+  "name": "@barnabas-lesti/clean-project",
+  "description": "JavaScript project cleaner package.",
+  "type": "module",
+  "packageManager": "npm@10.7.0",
+  "engines": {
+    "node": ">=18.20.0",
+    "npm": ">=10.7.0"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "build:watch": "turbo run build",
+    "lint": "prettier . --check --cache && eslint . --cache",
+    "lint:fix": "prettier . --write --cache && eslint . --fix --cache"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.56.10",
+    "@typescript-eslint/eslint-plugin": "^7.16.1",
+    "@typescript-eslint/parser": "^7.16.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.4.5"
+  }
+}

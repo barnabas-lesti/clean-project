@@ -1,2 +1,3 @@
-# clean-project
-Web project cleaner package.
+# Clean project
+
+JavaScript project cleaner package.
